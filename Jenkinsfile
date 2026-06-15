@@ -14,7 +14,7 @@ pipeline {
         stage('Clone') {
 
             steps {
-                git branch: "${env.BRANCH_NAME}",
+                git branch: "dev",
                 url: 'https://github.com/NishaJudha/devop3-project.git'
             }
         }
