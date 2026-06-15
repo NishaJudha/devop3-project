@@ -11,14 +11,6 @@ pipeline {
 
     stages {
 
-        stage('Clone') {
-
-            steps {
-                git branch: "dev",
-                url: 'https://github.com/NishaJudha/devop3-project.git'
-            }
-        }
-
         stage('Build') {
 
             steps {
