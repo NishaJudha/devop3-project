@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  react-app:
+    image: react-app:latest
+
+    container_name: react-app-v2
+
+    ports:
+      - "80:80"
+
+    restart: always
+    
